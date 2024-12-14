@@ -1,0 +1,36 @@
+meta {
+  name: movies-_1
+  type: http
+  seq: 4
+}
+
+post {
+  url: {{BACKEND_URL}}/movies/
+  body: json
+  auth: none
+}
+
+headers {
+  Content-Type: application/json; charset=utf-8
+}
+
+body:json {
+  {
+      "title": "Quantum Horizon 3",
+      "year": 2024,
+      "cast": [
+          "Adam Sevani",
+          "Bruce Lanoil"
+      ],
+      "genres": [
+          "Science Fiction",
+          "Thriller",
+          "Adventure"
+      ],
+      "href": "Quantum_Horizon",
+      "extract": "Quantum Horizon is a 2024 science fiction thriller directed by Emilia Vance. The story follows a team of scientists attempting to navigate a mysterious anomaly threatening Earth's existence. Starring Ava Carter, Liam Zhang, and Sophia Novak, the film explores themes of survival, sacrifice, and the unknown. It was released on July 21, 2024, by Stellar Entertainment.",
+      "thumbnail": "https://upload.wikimedia.org/fakepath/quantum_horizon_poster.jpg",
+      "thumbnail_width": 450.0,
+      "thumbnail_height": 600.0
+  }
+}

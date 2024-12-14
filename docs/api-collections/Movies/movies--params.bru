@@ -1,0 +1,15 @@
+meta {
+  name: movies--params
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BACKEND_URL}}/movies?title=Brown
+  body: none
+  auth: none
+}
+
+params:query {
+  title: Brown
+}

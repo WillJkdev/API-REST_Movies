@@ -1,0 +1,15 @@
+meta {
+  name: cast--params
+  type: http
+  seq: 2
+}
+
+get {
+  url: {{BACKEND_URL}}/cast?name=Will
+  body: none
+  auth: none
+}
+
+params:query {
+  name: Will
+}

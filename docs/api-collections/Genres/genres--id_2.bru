@@ -1,0 +1,17 @@
+meta {
+  name: genres--id_2
+  type: http
+  seq: 6
+}
+
+patch {
+  url: {{BACKEND_URL}}/genres/231
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+      "name": "Anime"
+  }
+}

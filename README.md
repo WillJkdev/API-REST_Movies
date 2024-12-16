@@ -1,4 +1,4 @@
-# Movies API
+# Movies API - REST
 
 Una API RESTful para gestionar películas, géneros y actores. Este proyecto es ideal para aplicaciones que requieren organizar y acceder a grandes bases de datos de contenido multimedia. Permite operaciones CRUD y está diseñado para ser modular y escalable.
 
